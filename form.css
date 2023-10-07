@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+    background-color: white;
+
+}
+body{
+    background-color: pink;
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: black;  */
+
+}
+.container{
+    border: 2px solid black;
+    position: relative;
+    height: 720px;
+    width: 430px;
+    /* background: red; */
+    /* background: linear-gradient(red,blue,green,YELLOW,HOTPINK,white,green); */
+    background:white;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    /* color: white; */
+}
+.log{
+    text-align: center;
+    color: blue;
+}
+.login-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+}
+form{
+    font-weight: bold;
+    color: black;
+}
+H1{
+    color: aliceblue;
+    background: linear-gradient(green,BLUE);
+}
+A{
+    color: aliceblue;
+}
+.errorspan{
+    color: red;
+}
